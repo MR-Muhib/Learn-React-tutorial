@@ -1,0 +1,23 @@
+.tutorial-title {
+  font-size: 2.2rem;
+  margin: 2rem;
+}
+.tutorial-div {
+  width: auto;
+  height: auto;
+  background-color: tomato;
+  color: white;
+  padding: 1rem;
+  margin: 2rem 0;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.tutorial-learn {
+  background-color: #24ad51;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 1.5rem 0;
+}

@@ -1,0 +1,32 @@
+.content-div {
+  display: grid;
+  gap: 1rem;
+}
+
+.section-div {
+  text-align: justify;
+  line-height: 1.8rem;
+  padding: 1rem 1rem;
+}
+.child-pera {
+  margin-bottom: 1rem;
+}
+
+.quick-start {
+  color: green;
+  font-weight: bold;
+}
+.quick-start:hover {
+  background-color: green;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .content-div {
+    display: flex;
+    float: right;
+  }
+  .section-div {
+    width: 70%;
+  }
+}

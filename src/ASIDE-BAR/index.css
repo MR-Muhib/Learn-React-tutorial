@@ -1,0 +1,40 @@
+.aside-parent-div {
+  background-color: #2f2f2f;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+.aside1-div,
+.aside2-div,
+.aside3-div,
+.aside4-div {
+  color: white;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.aside2-div span:active,
+.aside3-div span:active,
+.aside1-div span:active,
+.aside4-div span:active {
+  color: red;
+}
+
+@media screen and (min-width: 600px) {
+  .aside-parent-div {
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #d8d4d4;
+  }
+  .aside3-div,
+  .aside2-div,
+  .aside1-div,
+  .aside4-div {
+    color: rgb(82, 79, 79);
+    font-weight: bold;
+  }
+}

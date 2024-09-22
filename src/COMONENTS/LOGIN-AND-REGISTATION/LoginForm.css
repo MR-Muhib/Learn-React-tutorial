@@ -1,0 +1,70 @@
+.login-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+  /* background-image: url(./login-background-imaje.jpg); */
+  /* opacity: 0.5; */
+}
+
+.login-form {
+  width: 25rem;
+  height: auto;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+.form-login {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 1.3rem;
+}
+.input-fild:not(.checkbox) {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  padding: 0.8rem;
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-bottom: 1.3rem;
+  font-size: 1.2rem;
+}
+.label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+.checkbox {
+  margin-right: 0.5rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  background-color: antiquewhite;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.btn:active {
+  box-shadow: 2px 2px 2px;
+}
+
+.help-logging {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.check-div {
+  margin-bottom: 1rem;
+}

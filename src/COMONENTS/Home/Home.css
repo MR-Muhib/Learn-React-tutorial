@@ -1,0 +1,39 @@
+.home-card {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+.home-title {
+  color: aqua;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+.home-pera {
+  color: white;
+  margin: 0.5rem;
+}
+.started-btn {
+  background-color: aqua;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  margin-top: 2rem;
+  border: none;
+  outline: none;
+  margin: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 200ms;
+}
+.started-btn:hover {
+  background: white;
+}
+.take-tutorial {
+  color: aqua;
+  text-decoration: none;
+}
+.take-tutorial:hover {
+  color: white;
+}
